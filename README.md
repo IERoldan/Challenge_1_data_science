@@ -1,86 +1,83 @@
-# 🛒 Análisis de Ventas
+# 📊 Análisis de Rendimiento de Tiendas - Alura Store
 
-## Introducción
-En este proyecto se analizan datos de ventas de cuatro tiendas con el fin de ayudar al Sr. Juan a tomar una decisión informada sobre en cuál tienda debería vender sus productos. Los datos incluyen información sobre los productos vendidos, categorías, calificaciones de los clientes, ubicación geográfica, métodos de pago, y más.
-
----
-
-## ✅ Ejercicio 1: Ingreso total por tienda
-Se calculó el ingreso total por tienda sumando la columna **Precio** de cada dataset.
-
-**Resultado:**
-
-| Tienda    | Ingreso Total      |
-|-----------|--------------------|
-| Tienda 1  | $1,150,880,000.00  |
-| Tienda 2  | $1,116,344,000.00  |
-| Tienda 3  | $1,098,020,000.00  |
-| Tienda 4  | $1,038,376,000.00  |
-
-📊 Se generó un gráfico de barras para visualizar los ingresos por tienda.
+## 🎯 Objetivo
+Determinar cuál de las 4 tiendas de Alura Store presenta un menor rendimiento general y podría ser vendida para financiar un nuevo emprendimiento.
 
 ---
 
-## ✅ Ejercicio 2: Productos vendidos por categoría en cada tienda
-Se agruparon los datos por **Tienda** y **Categoría del Producto**, contando la cantidad de ventas por tipo.
+## 📈 Ingreso Total por Tienda
 
-📊 Se crearon gráficos de barras para mostrar las categorías más populares por tienda.
+| Tienda   | Ingreso Total         |
+|----------|------------------------|
+| Tienda 1 | $1,150,880,400.00     |
+| Tienda 2 | $1,116,343,500.00     |
+| Tienda 3 | $1,098,019,600.00     |
+| Tienda 4 | $1,038,375,700.00     |
 
----
-
-## ✅ Ejercicio 3: Calificación promedio de los clientes
-Se calculó la calificación promedio otorgada por los clientes en cada tienda.
-
-**Resultado:**
-
-| Tienda    | Calificación Promedio |
-|-----------|------------------------|
-| Tienda 1  | ⭐️ 2.89                 |
-| Tienda 2  | ⭐️ 2.97                 |
-| Tienda 3  | ⭐️ 2.91                 |
-| Tienda 4  | ⭐️ 3.00                 |
-
-📊 Se generó un gráfico de líneas para observar tendencias de satisfacción por tienda.
+🔍 *Tienda 4 genera el menor ingreso total.*
 
 ---
 
-## ✅ Ejercicio 4: Productos más y menos vendidos
-Se identificaron los productos con más y menos ventas en cada tienda.
+## 📦 Costo de Envío Promedio
 
-📊 Se generaron gráficos de barras mostrando los productos más vendidos (Top 5) y menos vendidos (Bottom 5) por tienda.
+| Tienda   | Costo de Envío Promedio |
+|----------|--------------------------|
+| Tienda 1 | $26,018.61              |
+| Tienda 2 | $25,216.24              |
+| Tienda 3 | $24,805.68              |
+| Tienda 4 | $23,459.46              |
 
----
-
-## ✅ Ejercicio 5: Costo de envío promedio por tienda
-Se calculó el promedio del **Costo de Envío** por tienda.
-
-**Resultado:**
-
-| Tienda    | Costo de Envío Promedio |
-|-----------|--------------------------|
-| Tienda 1  | $7,232.68                |
-| Tienda 2  | $7,228.97                |
-| Tienda 3  | $7,252.18                |
-| Tienda 4  | $7,278.20                |
-
-📊 Gráfico de dispersión para comparar los promedios.
+📉 *Tienda 4 tiene el costo de envío más bajo, lo cual podría implicar menor logística o cobertura limitada.*
 
 ---
 
-## ✅ Ejercicio 6: Distribución geográfica de las ventas
-Se usaron los datos de latitud y longitud para generar:
+## 🌟 Calificación Promedio de Clientes
 
-- Gráficos de dispersión geográficos con ventas por tienda
-- Mapas de calor (heatmaps) para visualizar concentración de ventas
+| Tienda   | Calificación Promedio |
+|----------|------------------------|
+| Tienda 1 | 3.98                   |
+| Tienda 2 | 4.04                   |
+| Tienda 3 | 4.05                   |
+| Tienda 4 | 4.00                   |
 
-🗺️ Esto permitió identificar regiones con mayor actividad de ventas, revelando posibles patrones geográficos.
+✅ *Todas las tiendas tienen buenas calificaciones, pero Tienda 1 es la peor evaluada.*
 
 ---
 
-## 📌 Conclusión
-Basado en el análisis de ingresos, satisfacción del cliente, costos de envío y distribución geográfica, **Tienda X** (completar según resultados finales) se posiciona como la mejor opción para que el Sr. Juan venda sus productos, destacándose por:
+## 🧸 Cantidad Total de Productos Vendidos
 
-- Altos ingresos totales
-- Buen desempeño en satisfacción del cliente
-- Categorías populares y productos destacados
-- Buena ubicación geográfica en regiones con alta concentración de ventas
+| Tienda   | Productos Vendidos |
+|----------|---------------------|
+| Tienda 1 | 2,359               |
+| Tienda 2 | 2,359               |
+| Tienda 3 | 2,359               |
+| Tienda 4 | 2,358               |
+
+📦 *Tienda 4 vendió una unidad menos, lo cual no es significativo, pero reafirma su bajo volumen.*
+
+---
+
+## 🛒 Productos Más y Menos Vendidos
+
+- Tienda 1: más vendido *Armario* (60), menos *Auriculares con micrófono* (33)
+- Tienda 2: más vendido *Iniciando en programación* (65), menos *Juego de mesa* (32)
+- Tienda 3: más vendido *Kit de bancas* (57), menos *Bloques de construcción* (35)
+- Tienda 4: más vendido *Cama box* (62), menos *Guitarra eléctrica* (33)
+
+📌 *No hay diferencias sustanciales, pero Tienda 4 destaca por productos de menor rotación general.*
+
+---
+
+## 🧾 Recomendación Final
+
+Luego de analizar el ingreso, volumen de ventas, costo logístico y percepción de los clientes, **Tienda 4** es consistentemente la que:
+
+- Genera menos ingresos.
+- Tiene menor volumen de ventas totales.
+- Si bien tiene buen puntaje de cliente, no supera significativamente a las demás.
+- Tiene el costo de envío más bajo, lo que podría indicar una operación más limitada.
+
+### ✅ **Recomendación:**
+Se sugiere **vender Tienda 4** para financiar el nuevo emprendimiento, dado que es la tienda menos eficiente de la cadena.
+
+---
